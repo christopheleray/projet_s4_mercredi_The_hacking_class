@@ -1,3 +1,5 @@
+# Création de la table students avec les champs suivants:
+# first_name, last_name, email, course_id, created_at et updated_at
 class CreateStudents < ActiveRecord::Migration[5.2]
   def change
     create_table :students do |t|
